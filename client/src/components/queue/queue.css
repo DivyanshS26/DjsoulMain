@@ -1,0 +1,81 @@
+.CardTitle {
+  text-align: center;
+}
+.card {
+  /*margin-bottom: 0.5rem;*/
+  height: 82px;
+}
+.animation {
+  animation: fade-in-queue 0.2s;
+}
+@keyframes fade-in-queue {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.queue {
+  animation: fade-out-queue 0.2s;
+}
+@keyframes fade-out-queue {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeRemove {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.remove {
+  animation: fadeRemove 0.3s;
+}
+.queueList {
+  padding-top: 10px;
+  margin-top: 30px;
+  border: #b6e1ff3d;
+  border-style: solid;
+}
+.thumbnailbutton3 {
+  padding: 30px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  top: 15%;
+  background-color: rgb(82 82 82 / 30%);
+  border-radius: 25px;
+
+  z-index: 500;
+}
+.thumbnailbuttonplaylist {
+  padding: 30px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  top: 0%;
+  background-color: rgb(82 82 82 / 30%);
+  border-radius: 25px;
+
+  z-index: 500;
+}
+
+.artistStuff2 {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  padding: 0;
+
+  cursor: pointer;
+  font-size: 15px;
+  font-family: inherit;
+}

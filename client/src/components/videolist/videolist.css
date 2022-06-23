@@ -1,0 +1,128 @@
+.titles {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: x-large;
+}
+.card-title {
+  font-size: 0.9em;
+}
+.card-text {
+  font-size: 0.9em;
+}
+.card {
+  /*margin-bottom: 0.5rem;*/
+  min-height: 60px;
+}
+.card-body {
+  padding: 1rem !important;
+}
+#videolist {
+  background-color: transparent !important;
+  max-height: 400px;
+  min-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#videolist33 {
+  background-color: transparent !important;
+  max-height: 305px;
+  min-height: 305px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 5px;
+
+  border: #b6e1ff3d;
+  border-style: solid;
+}
+.btn-item {
+  font-size: small !important;
+  display: inline-block !important;
+  top: 50% !important;
+}
+.placeforbutton {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.loadingPlace {
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding-right: 50px;
+  border-radius: 2rem;
+  z-index: 1;
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.card-2 {
+  color: #fff;
+  background-color: transparent !important;
+  height: auto !important;
+}
+.thumbnailbutton {
+  padding: 30px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+  top: 15%;
+  background-color: rgb(82 82 82 / 30%);
+  border-radius: 25px;
+
+  z-index: 500;
+}
+
+.thumbnailbutton2 {
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  top: 15%;
+  background-color: rgb(82 82 82 / 30%);
+  border-radius: 25px;
+
+  z-index: 500;
+}
+#thumbnail {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#thumbnail:hover {
+  color: aliceblue;
+}
+#thumbnail2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  opacity: 1;
+}
+#thumbnail2:hover {
+  color: #009688;
+  opacity: 0.8;
+}
+#thumbnail2:active {
+  transform: scale(0.85) !important;
+}
+.badgeWrapper {
+  font-size: 17px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+}
